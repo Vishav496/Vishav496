@@ -1,0 +1,179 @@
+CREATE TABLE student(
+
+	studentid VARCHAR (20) NOT NULL,
+
+	studentlastname VARCHAR (20),
+
+	studentfirstname VARCHAR (20),
+
+	studentgroup VARCHAR (20),
+
+	PRIMARY KEY (studentid)
+
+);
+
+
+
+
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '1', 'Group1', 'CSD2354', '9');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '2', 'Group1', 'CSD2206', '9');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '3', 'Group1', 'CSD2058', '9');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '4', 'Group1', 'CSD1910', '9');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '5', 'Group1', 'CSD1762', '9');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '6', 'Group1', 'CSD1614', '9');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '7', 'Group2', 'CSD1113', '4');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '8', 'Group2', 'CSD1466', '4');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '9', 'Group2', 'CSD1318', '4');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '10', 'Group2', 'CSD1114', '4');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '11', 'Group2', 'CSD1170', '4');
+
+INSERT INTO pgmgroup ( programgroupid , programgroupname , classid , sectionid ) VALUES ( '12', 'Group2', 'CSD1022', '4');
+
+select * from pgmgroup
+
+
+
+
+
+    
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A101', 'Smith', 'John', 'Group 1');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A102', 'Jones', 'Mike', 'Group 1');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A103', 'Smith', 'Susan', 'Group 1');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A104', 'Bichon', 'Peanut', 'Group 1');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A105', 'Smith', 'John', 'Group 1');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A106', 'Kirk', 'James', 'Group 2');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A107', 'Archer', 'Jonathan', 'Group 2');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A108', 'Janeway', 'Catherine', 'Group 2');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A109', 'Sisko', 'Benjamin', 'Group 2');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A110', 'Pike', 'Christopher', 'Group 3');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A111', 'Scott', 'Montgommery', 'Group 3');
+
+INSERT INTO student ( studentid, studentlastname, studentfirstname, studentgroup ) VALUES ( 'A112', 'Riker', 'William', 'Group 3');
+
+select * from student
+
+
+
+
+
+select * from roomstable
+
+select * from groupstable
+
+select * from studentstable
+
+
+
+
+
+
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '1' , ' ' , ' ' , ' ' )
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '2' , ' ' , ' ' , ' ' )
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '3' , ' ' , ' ' , ' ' )
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '4' , ' ' , ' ' , ' ' )
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '5' , ' ' , ' ' , ' ' )
+
+select * from roomstable
+
+
+
+
+
+
+
+
+
+SELECT COUNT(address)
+
+FROM Thisyear;
+
+
+
+
+
+[NOT
+
+DECLARE @Table1Count BIGINT
+
+		@Table2Count BIGINT
+
+		@Difference BIGINT
+
+SELECT @ThisyearCount = COUNT(*) FROM Thisyear
+
+
+
+SELECT @LastyearCount = COUNT(*) FROM Lastyear
+
+
+
+SET @Difference = @ThisyearCount - @LastyearCount
+
+
+
+Print @Difference
+
+NOT]
+
+
+
+
+
+SELECT COUNT(address)
+
+FROM Lastyear;
+
+
+
+
+
+
+
+DECLARE @ThisyearCount BIGINT,
+
+        @LastyearCount BIGINT,
+
+        @Difference  BIGINT
+
+
+
+SELECT @ThisyearCount = COUNT(*) FROM Thisyear
+
+
+
+SELECT @LastyearCount = COUNT(*) FROM Lastyear
+
+
+
+SET @Difference = @ThisyearCount - @LastyearCount
+
+
+
+Print @Difference
