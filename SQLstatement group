@@ -1,0 +1,24 @@
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '1' , 'Group1' , 'CSD@#%$' , '9' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '2' , 'Group1' , 'CSD2206' , '9' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '3' , 'Group1' , 'CSD2058' , '9' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '4' , 'Group1' , 'CSD1910' , '9' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '5' , 'Group1' , 'CSD1762' , '9' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '6' , 'Group1' , 'CSD1614' , '9' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '7' , 'Group2' , 'CDS1113' , '4' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '8' , 'Group2' , 'CSD1466' , '4' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '9' , 'Group2' , 'CSD1318' , '4' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '10' , 'Group2' , 'CDS1114' , '4' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '11' , 'Group2' , 'CSD1170' , '4' )
+
+INSERT INTO groupstable ( programgroupid , programgroup , classid , sectionid ) VALUES ( '12' , 'Group2' , 'CSD1022' , '4' )
