@@ -1,0 +1,88 @@
+create table lot(
+
+lot_id varchar(20),
+
+quantity_of_vegatable varchar(20),
+
+lot_name varchar(20),
+
+veggie_id varchar(20),
+
+primary key (lot_id)
+
+);
+
+
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('1','788', 'RED', '2') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('2','563', 'ORANGE', '12') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('3','837', 'YELLOW', '3') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('4','428', 'BROWN', '7') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('5','221', 'GREEN','9')
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('6','273', 'VIOLET', '5') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('7','406', 'FUSCHIA', '1') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('8','907', 'PURPLE', '11') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('9','798', 'CHARTREUSE', '10') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('10','296', 'GREY', '8') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('11','598', 'MAGENTA', '6') 
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('12','231', 'CYAN', '4') 
+
+select * from lot
+
+
+
+
+
+
+create table veggies(
+
+veggie_id varchar(20),
+
+veggie_price money,
+
+veggie_name varchar(20),
+
+veggie_type varchar(20),
+
+primary key (veggie_id)
+
+);
+
+
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('1',1,'Carrots');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('2',9,'Peas');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('3',3,'Tomatoes ');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('4',4,'Corn');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('5',7,'Squash');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('6',4,'Artichokes');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('7',9,'Aubergines');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('8',2,'Cauliflower');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('9',12,'Green bean');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('10',3,'Broccoflower');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('11',6,'Brussels Sprouts');
+
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('12',5,'potatoe');
+
+select * from veggies
