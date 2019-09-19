@@ -1,0 +1,21 @@
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A101' , 'Smith' , 'Mary' , 'Group1' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A102' , 'Jones' , 'Cindy' , 'Group1' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A103' , 'Pike' , 'Christopher' , 'Group3' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A104' , 'McCoy' , 'Leonard' , 'Group1' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A105' , 'Scott' , 'Montgommery' , 'Group5' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A106' , 'Archer' , 'Jonathan' , 'Group1' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A107' , 'Reader' , 'Jack' , 'Group2' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A108' , 'Caidan' , 'Martin' , 'Group2' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A109' , 'Goldman' , 'Oscar' , 'Group1' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A110' , 'Austin' , 'Steve' , 'Group4' )
+
+INSERT INTO studentstable ( studentid , studentlastname , studentfirstname , programgroup ) VALUES ( 'A111' , 'Smith' , 'Mary' , 'Group1' )
