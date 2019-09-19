@@ -1,0 +1,9 @@
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '1' , ' ' , ' ' , ' ' )
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '2' , ' ' , ' ' , ' ' )
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '3' , ' ' , ' ' , ' ' )
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '4' , ' ' , ' ' , ' ' )
+
+INSERT INTO roomstable ( roomid , roomnumber , seats , hascomputers ) VALUES ( '5' , ' ' , ' ' , ' ' )
